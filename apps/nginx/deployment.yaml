@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
         - name: nginx
-          image: nginx:1.25    # ← будем менять этот тег!
+          image: nginx:1.25
           ports:
             - containerPort: 80
 ---
